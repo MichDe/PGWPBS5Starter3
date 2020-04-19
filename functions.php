@@ -39,6 +39,14 @@ function st2_setup() {
         'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
     ) );
 
+    /*********
+* Adding extra Gutenberg block functions
+************/
+add_theme_support( 'wp-block-styles' );
+add_theme_support( 'wp-block-styles' );
+add_theme_support( 'responsive-embeds' );
+
+
     /*
      * Enable support for Post Formats.
      */
